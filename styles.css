@@ -1,0 +1,103 @@
+body {
+  text-align: center;
+  background-color: #D8E3E7;
+}
+
+.header {
+  margin: 2rem;
+  color: #F05454;
+  font-family: 'Mate SC', serif;
+
+  font-weight: 800;
+}
+
+.display, footer {
+  text-align: center;
+  width: 500px;
+  font-family: 'Mate SC', serif;
+  color: #126E82;
+  margin: 2rem auto;
+}
+
+a {
+  text-decoration: none;
+  color: #F05454;
+}
+
+.board {
+  width: fit-content;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-column-gap: 0;
+  margin: 2rem auto;
+  padding: 2rem;
+  box-shadow: 2px 0px 13px -1px rgba(101,108,115,1);
+  border-radius: 10px;
+  background-color: #F3F4ED;
+}
+
+.tile {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #132C33;
+  padding: 1rem;
+  align-items: center;
+}
+
+
+.tile:hover {
+  background-color: #94B5C0;
+}
+
+
+.mark {
+  font-family: 'Nanum Brush Script', cursive;
+  padding: 0;
+  margin: 0;
+  font-size: 60px;
+  font-weight: 700;
+  background-color: inherit;
+}
+
+.mark:hover {
+  color:white;
+}
+
+.pressed {
+  background-color: #35589A;
+  box-shadow: 2px 3px 25px 5px grey;
+  color: #fff;
+}
+
+
+.row0 {
+  border-top: none;
+}
+
+.row2 {
+  border-bottom: none;
+}
+
+.col0 {
+  border-left: none;
+}
+
+.col2 {
+  border-right: none;
+}
+
+.X {
+  background-color: #C70039;
+  color:white;
+}
+
+.O {
+  background-color: #6930C3;
+  color:white;
+}
+
+hr {
+  width: 8rem;
+  margin: 4rem auto;
+}
